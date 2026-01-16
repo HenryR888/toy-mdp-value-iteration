@@ -70,11 +70,13 @@ V_{k+1}(s) = \max_{a \in A} \sum_{s' \in S} \tau(s' \mid s, a)\left[R(s, a, s') 
 $$
 
 The iteration continues until convergence:
+
 $$
 \|V_{k+1} - V_k\|_\infty < \varepsilon
 $$
 
 Once converged, the **optimal policy** is extracted greedily:
+
 $$
 \pi^*(s) = \arg\max_a Q^*(s, a)
 $$
