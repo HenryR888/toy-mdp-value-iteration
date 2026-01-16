@@ -84,11 +84,11 @@ $$
 where,
 
 $$
-\Q^{\*}(s,a) = \sum_{s' \in S} \tau(s' \mid s, a)\left[R(s, a, s') + \gamma V_k(s')\right]
+Q^{\*}(s,a) = \sum_{s' \in S} \tau(s' \mid s, a)\left[R(s, a, s') + \gamma V^{\*}(s')\right]
 $$
 
 
-known as the action-value function.
+is known as the optimal action-value function.
 
 ---
 
