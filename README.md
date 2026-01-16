@@ -78,8 +78,16 @@ $$
 Once converged, the **optimal policy** is extracted greedily:
 
 $$
-\pi^{\*}(s) = \arg\max_a Q^{\*}(s, a)
+\pi^{\*}(s) = \arg\max_a Q^{\*}(s, a),
 $$
+
+where,
+
+$$
+\Q^{\*}(s,a) = \sum_{s' \in S} \tau(s' \mid s, a)\left[R(s, a, s') + \gamma V_k(s')\right]
+$$,
+
+known as the action-value function.
 
 ---
 
