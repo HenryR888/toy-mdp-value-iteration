@@ -85,7 +85,8 @@ where,
 
 $$
 \Q^{\*}(s,a) = \sum_{s' \in S} \tau(s' \mid s, a)\left[R(s, a, s') + \gamma V_k(s')\right]
-$$,
+$$
+
 
 known as the action-value function.
 
