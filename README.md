@@ -72,13 +72,13 @@ $$
 The iteration continues until convergence:
 
 $$
-\|V_{k+1} - V_k\|_\infty < \varepsilon
+\max_{s \in S} \left|V_{k+1}(s) - V_k(s)\right| < \varepsilon
 $$
 
 Once converged, the **optimal policy** is extracted greedily:
 
 $$
-\pi^{*}(s) = \arg\max_a Q^{*}(s, a)
+\pi^{\*}(s) = \arg\max_a Q^{\*}(s, a)
 $$
 
 ---
