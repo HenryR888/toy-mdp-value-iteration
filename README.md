@@ -29,12 +29,12 @@ TRAP | 1 | 2 | 3 | TREASURE
 
 ### State Space
 $$
-S = \{0, 1, 2, 3, 4\}
+S = {0, 1, 2, 3, 4}
 $$
 
 ### Action Space
 $$
-A = \{0, 1\}
+A = {0, 1}
 $$
 - 0 → Move Left  
 - 1 → Move Right  
